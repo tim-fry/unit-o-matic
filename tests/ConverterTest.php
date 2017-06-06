@@ -1,8 +1,6 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
-
-class ConverterTest extends TestCase
+class ConverterTest extends PHPUnit_Framework_TestCase
 {
 
   public function testHandlesNullInputUnit()
