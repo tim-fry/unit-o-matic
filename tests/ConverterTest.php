@@ -5,7 +5,7 @@ class ConverterTest extends PHPUnit_Framework_TestCase
 
   public function testHandlesNullInputUnit()
   {
-    $inputUnit;
+    $inputUnit = null;
     $converter = new Converter();
     $this->assertEquals(
       "Error: No input unit provided",
@@ -14,7 +14,7 @@ class ConverterTest extends PHPUnit_Framework_TestCase
 
   public function testHandlesNullInputQuantity()
   {
-    $inputQuantity;
+    $inputQuantity = null;
     $converter = new Converter();
     $this->assertEquals(
       "Error: No quantity provided",
@@ -23,7 +23,7 @@ class ConverterTest extends PHPUnit_Framework_TestCase
 
   public function testHandlesNullOutputUnit()
   {
-    $outputUnit;
+    $outputUnit = null;
     $converter = new Converter();
     $this->assertEquals(
       "Error: No output unit provided",
