@@ -1,6 +1,6 @@
 <?php
 
-include 'Unit.php';
+include_once 'Unit.php';
 
 class Converter
 {
